@@ -1,0 +1,6 @@
+env.env
+data
+mongoData
+__pycache__
+images
+cache

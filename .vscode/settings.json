@@ -1,0 +1,8 @@
+{
+  "atomKeymap.promptV3Features": false,
+  "python.analysis.extraPaths": [
+    "./bot",
+    "./image-host"
+  ],
+  "python.pythonPath": "/usr/bin/python3"
+}

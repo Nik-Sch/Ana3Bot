@@ -1,0 +1,2 @@
+python-telegram-bot==13.4.1
+typing_extensions==3.7.4.3
