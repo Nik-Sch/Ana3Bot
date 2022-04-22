@@ -48,6 +48,7 @@ class MainBot:
         regex = re.compile('.*Modul.*empfehlen.*', re.IGNORECASE)
         if regex.match(message.text):
             message.reply_text('Analysis 3 für Mathe. Hat zwar 10LP, ist aber recht spannend.', reply_to_message_id=message.message_id)
+            logging.info(f'replied to message "{message.text}" from {chat_id}')
 
 
     def handleError(self, update: Any, context: CallbackContext):
